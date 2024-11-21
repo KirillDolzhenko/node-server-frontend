@@ -1,0 +1,40 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  min-width: 400px;
+
+  .row {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin {
+  color: rgb(255, 197, 245);
+}
+
+.user {
+  color: rgb(197, 255, 255);
+}
