@@ -35,7 +35,15 @@ function App() {
             </HOCAuthCheck>
           }
         ></Route>
-        <Route path="/" element={<NotFound />}></Route>
+        <Route
+          path="/"
+          element={
+            <HOCAuthCheck>
+              <NotFound />
+            </HOCAuthCheck>
+          }
+        ></Route>
+        <Route path="/*" element={<NotFound />}></Route>
       </Routes>
     </BrowserRouter>
   );
